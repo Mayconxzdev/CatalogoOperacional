@@ -1,10 +1,12 @@
 # Catálogo Operacional de Compras
 
+[Case no portfólio](https://mayconxzdev.github.io/cases/catalogo-operacional-compras/)
+
 [![Validação](https://github.com/Mayconxzdev/CatalogoOperacional/actions/workflows/validate.yml/badge.svg)](https://github.com/Mayconxzdev/CatalogoOperacional/actions/workflows/validate.yml) [![Licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-2563eb.svg)](LICENSE) [![Versão de demonstração](https://img.shields.io/badge/vers%C3%A3o-v1.1.0--demo-172033.svg)](CHANGELOG.md)
 
 ![Busca de materiais no Catálogo Operacional de Compras](assets/screenshots/01-search.png)
 
-Desenvolvi o **Catálogo Operacional de Compras** para substituir a consulta diária em uma planilha compartilhada. A versão interna organiza uma base histórica com **24 categorias operacionais e mais de 480 códigos de materiais** e permite localizar materiais, fornecedores, preços e histórico por código, nome, especificação ou fornecedor.
+Desenvolvi o **Catálogo Operacional de Compras** para substituir a consulta diária em uma planilha compartilhada. A versão interna organiza uma base histórica de categorias operacionais e códigos de materiais e permite localizar materiais, fornecedores, preços e histórico por código, nome, especificação ou fornecedor.
 
 > Todos os materiais, fornecedores, valores, históricos, caminhos e imagens desta publicação são fictícios ou demonstrativos. Nenhum dado operacional da empresa está neste repositório.
 
@@ -12,8 +14,8 @@ Desenvolvi o **Catálogo Operacional de Compras** para substituir a consulta di�
 
 | Aspecto | Situação |
 |---|---|
-| **Rotina interna** | Usado diariamente por três pessoas da operação e consultado pela gestão. |
-| **Base organizada** | 24 categorias operacionais e mais de 480 códigos, originados de uma planilha construída ao longo de aproximadamente dois anos. |
+| **Rotina interna** | Uso interno relatado na operação e na gestão. |
+| **Base organizada** | Categorias e códigos oriundos da base histórica de compras. |
 | **Pesquisa** | Busca por código, nome, descrição técnica, medida, fornecedor, fabricante e termos relacionados. |
 | **Concorrência** | Controle por `revision`, backup antes de escritas sensíveis e conflito explícito entre edições simultâneas. |
 | **Arquitetura** | FastAPI, catálogo JSON versionado, SQLite FTS5 como índice derivado, JavaScript e OCR opcional. |
